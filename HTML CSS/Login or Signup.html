@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Login or Signup</title>
+        <link rel="stylesheet" href="Login or Signup.css">
+    </head>
+
+    <body>
+        <div class="total">
+            <div class="form-box">
+                <div class="button">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <form id="login" class="input-group">
+                    <input type="email" class="input-field" placeholder="Enter Email-id" >
+                    <input type="password" id="pswd" class="input-field" placeholder="Enter Password">
+                    <input type="checkbox" id ="showPassword" onclick="show()"> Show password
+                    <a href="./success.png">
+                        <button type="button" class="submit-btn">Login</button>
+                    </a>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="Enter Username">
+                    <input type="email" class="input-field" placeholder="Enter Email-id"> 
+                    <input type="password" id="pswd1" class="input-field" placeholder="Enter Password">
+                    <input type="checkbox" id ="showPassword" onclick="show1()"> Show password
+                    <a href="Phonenumber.html">
+                        <button type="button" class="submit-btn">Register</button>    
+                    </a>
+                </form>
+            </div>
+        </div>
+        <script src="Login or Signup.js"></script>
+    </body>
+</html>
