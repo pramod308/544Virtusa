@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Book Lab Test</title>
+    </head>
+    <body>
+        <table align="center">
+            <form id="create">
+                <tr>
+                    <td><h3>BOOK YOUR TEST</h3></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="cname" placeholder="Name*"></td>
+                </tr>    
+                <tr>
+                    <td><input type="text" name="email" placeholder="Email*"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="contact" placeholder="Phone Number*"></td>
+                </tr>
+                <tr>
+                        <td><input type="text" name="tn" placeholder="Test Name"></td>
+                </tr>
+                <tr>
+                        <td><div class="column"><input type="text" placeholder="Slot Booking Date"></td>
+                </tr>
+                <tr>
+                    <td><select name="state">
+                        <option value="" disabled selected hidden>Select State</option>
+                        <option value="Tel" >Telangana</option>
+                        <option value="Tam">Tamil Nadu</option>
+                        <option value="Kar">Karanataka</option>
+                        <option value="Mah">Maharastra</option>    
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><select name="city">
+                        <option value="" disabled selected hidden>Select City</option>
+                        <option value="Hyd" >Hyderabad</option>
+                        <option value="Chn">Chennai</option>
+                        <option value="Bng">Bangalore</option>
+                        <option value="Mum">Mumbai</option>    
+                    </select></td>
+                </tr>
+                <tr><td><br></td></tr> 
+                <tr>
+                    <td><button type="submit" value="Submit" id="submit">Submit</button> </td>
+                </tr> 
+            </form>
+        </table>
+    </body>
+</html>
+<style>
+    body
+    {
+        background-color:cornsilk;
+    }
+    h3
+    {
+        color: darkcyan;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    table
+    {
+        margin-top: 160px;
+        display: flex;
+        margin-left: 550px;
+    }
+    input,select
+    {
+        width:400px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    button
+    {
+        
+        width:400px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        background-color:crimson;
+        color: aliceblue;
+        font-weight: bold;
+    }
+</style>
