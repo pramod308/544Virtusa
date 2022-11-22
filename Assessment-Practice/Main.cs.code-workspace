@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../AMS"
+		},
+		{
+			"path": "../HMS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HMS"
+	}
+}
